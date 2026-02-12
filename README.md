@@ -1,6 +1,8 @@
 # Project Name: Malda
   - ***THIS IS AN ACTIVE PROJECT.***
+## 
 ![Image of our main character, Malda](https://github.com/rmohamed93/Malda/blob/main/Sprites/Malda.png)
+## 
   Malda, a being of the cosmos, has been sent to repair the connections between worlds, collectively known as the Tree of Life. There have been reports of 6 different worlds attached to these branches and roots, plunging into chaos as trickster beings have managed to mess with them. As you reach the center of the tree, you find it requires porthole keys to unlock your way to the next. Each key can be found inside the world you enter for each level.
 
 
