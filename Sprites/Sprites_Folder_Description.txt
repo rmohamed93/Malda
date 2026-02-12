@@ -1,0 +1,8 @@
+The Sprites folder may be temporarily held under Main.
+  - Pending potential changes.
+It will include any and all sprite designs for:
+  1. Enemies
+  2. NPC(s)
+  3. Player
+  4. World Edit Objects/Decorations
+  5. obtainable items
