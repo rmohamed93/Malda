@@ -1,10 +1,11 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class NewEmptyCSharpScript
+public class ButtonManager : MonoBehaviour
 {
     public void StartGame()
     {
+        Debug.Log("New Game Button Selected");
         SceneManager.LoadScene("LevelSelectHub");
     }
 }
