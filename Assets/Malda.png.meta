@@ -103,10 +103,10 @@ TextureImporter:
       name: Malda_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 288
-        height: 288
+        x: 66
+        y: 21
+        width: 149
+        height: 250
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
