@@ -15,6 +15,6 @@ EditorBuildSettings:
     path: Assets/Scenes/LevelSelectHub.unity
     guid: 7c1dbf8a5ce933cd89ac06e4026a4148
   m_configObjects:
-    com.unity.input.settings: {fileID: 11400000, guid: e188a036c0f5bd5218a94d3694046d44, type: 2}
-    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+    com.unity.input.settings: {fileID: 11400000, guid: 6bb75e7224b2c8d139d9dc626387ed7c, type: 2}
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 3c0cff575d7f20c7a957e9e91dd74319, type: 3}
   m_UseUCBPForAssetBundles: 0
