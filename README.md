@@ -1,5 +1,5 @@
 # Project Name: Malda
-  - ***THIS IS AN ACTIVE PROJECT.***
+  - ***NOTE: THIS IS AN ACTIVE PROJECT.***
 ## 
 ![Image of our main character, Malda](https://github.com/rmohamed93/Malda/blob/main/Sprites/Malda.png)
 ## 
