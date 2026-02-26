@@ -8,4 +8,10 @@ public class ButtonManager : MonoBehaviour
         Debug.Log("New Game Button Selected");
         SceneManager.LoadScene("LevelSelectHub");
     }
+
+    public void endGame()
+    {
+        Debug.Log("Quitting Game");
+        Application.Quit();
+    }
 }
