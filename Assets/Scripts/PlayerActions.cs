@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class PlayerMovement : MonoBehaviour
+public class PlayerActions : MonoBehaviour
 {
     public float moveSpeed = 5f;
     public float jumpForce = 10f;
@@ -12,13 +12,12 @@ public class PlayerMovement : MonoBehaviour
     private bool isGrounded;
     private bool isSprinting;
     private bool jumpRequested;
-    private bool interactRequested;
 
     public Transform groundCheck;
     public float groundCheckRadius = 0.2f;
     public LayerMask groundLayer;
-    public float interactRadius = 1.2f;
-    public LayerMask interactableLayer;
+
+    private IInteractable currentInteractable;
 
     void Awake()
     {
@@ -64,19 +63,19 @@ public class PlayerMovement : MonoBehaviour
 
     public void OnInteract(InputValue value)
     {
-        Collider2D hit = Physics2D.OverlapCircle(
-            transform.position,
-            interactRadius,
-            interactableLayer
-        );
+        currentInteractable?.Interact();
+    }
 
-        if (hit != null)
+    public void SetCurrentInteractable(Interactable interactable)
+    {
+        currentInteractable = interactable.GetComponent<IInteractable>();
+    }
+
+    public void ClearCurrentInteractable(Interactable interactable)
+    {
+        if (currentInteractable == interactable.GetComponent<IInteractable>())
         {
-            IInteractable interactable = hit.GetComponent<IInteractable>();
-            if (interactable != null)
-            {
-                interactable.Interact();
-            }
+            currentInteractable = null;
         }
     }
 }

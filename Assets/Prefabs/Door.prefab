@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6925729235216439984}
   - component: {fileID: 8987373809792372637}
   - component: {fileID: 7914694153662725110}
+  - component: {fileID: 957077575725981408}
   m_Layer: 7
   m_Name: Door
   m_TagString: Untagged
@@ -152,3 +153,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Door
   sceneToLoad: 
+--- !u!114 &957077575725981408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3203778287755393015}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b04a1cb5ed78e621e85bd39a764cd770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Interactable

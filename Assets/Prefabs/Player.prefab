@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 7076012832498259547}
   - component: {fileID: 6449304606377636632}
   - component: {fileID: 6386252066724918405}
-  - component: {fileID: 6797755176395610291}
+  - component: {fileID: 8390552192774027186}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -220,7 +220,7 @@ MonoBehaviour:
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
---- !u!114 &6797755176395610291
+--- !u!114 &8390552192774027186
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -229,9 +229,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 2319700504687971169}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3b12695f13c8da020868c869d24fa070, type: 3}
+  m_Script: {fileID: 11500000, guid: 1b3e523e30860b9c0a13de371e084f00, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerActions
   moveSpeed: 5
   jumpForce: 10
   sprintMultiplier: 1.5
