@@ -35,7 +35,17 @@ public class Enemy : MonoBehaviour
     {
         if (collision.gameObject == player)
         {
-            Debug.Log("Player Damaged");
+            foreach(ContactPoint2D hitPos in collision.contacts)
+            {
+                if (hitPos.normal.y < 0)
+                {
+                    Destroy(gameObject);
+                }
+                else
+                {
+                    Debug.Log("Player Damaged");
+                }
+            }
         }
     }
 }
