@@ -12,10 +12,13 @@ public class PlayerMovement : MonoBehaviour
     private bool isGrounded;
     private bool isSprinting;
     private bool jumpRequested;
+    private bool interactRequested;
 
     public Transform groundCheck;
     public float groundCheckRadius = 0.2f;
     public LayerMask groundLayer;
+    public float interactRadius = 1.2f;
+    public LayerMask interactableLayer;
 
     void Awake()
     {
@@ -57,5 +60,23 @@ public class PlayerMovement : MonoBehaviour
     {
         isSprinting = value.isPressed;
         Debug.Log("Sprint: " + isSprinting);
+    }
+
+    public void OnInteract(InputValue value)
+    {
+        Collider2D hit = Physics2D.OverlapCircle(
+            transform.position,
+            interactRadius,
+            interactableLayer
+        );
+
+        if (hit != null)
+        {
+            IInteractable interactable = hit.GetComponent<IInteractable>();
+            if (interactable != null)
+            {
+                interactable.Interact();
+            }
+        }
     }
 }
