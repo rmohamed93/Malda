@@ -30,4 +30,22 @@ public class Enemy : MonoBehaviour
 
             transform.localScale = scale;
     }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject == player)
+        {
+            foreach(ContactPoint2D hitPos in collision.contacts)
+            {
+                if (hitPos.normal.y < 0)
+                {
+                    Destroy(gameObject);
+                }
+                else
+                {
+                    Debug.Log("Player Damaged");
+                }
+            }
+        }
+    }
 }
