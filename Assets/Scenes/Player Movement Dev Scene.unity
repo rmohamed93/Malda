@@ -185,6 +185,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8390552192774027186, guid: 3cb1950684b03c88b818bd2750100690, type: 3}
+      propertyPath: jumpForce
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8390552192774027186, guid: 3cb1950684b03c88b818bd2750100690, type: 3}
       propertyPath: groundCheck
       value: 
       objectReference: {fileID: 126083550}
@@ -192,6 +196,10 @@ PrefabInstance:
       propertyPath: settingsPanel
       value: 
       objectReference: {fileID: 1666674284}
+    - target: {fileID: 8390552192774027186, guid: 3cb1950684b03c88b818bd2750100690, type: 3}
+      propertyPath: groundCheckRadius
+      value: 0.1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
