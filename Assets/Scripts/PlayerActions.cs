@@ -12,10 +12,12 @@ public class PlayerActions : MonoBehaviour
     private bool isGrounded;
     private bool isSprinting;
     private bool jumpRequested;
+    private bool escapePressed;
 
     public Transform groundCheck;
     public float groundCheckRadius = 0.2f;
     public LayerMask groundLayer;
+    public GameObject settingsPanel;
 
     private IInteractable currentInteractable;
 
@@ -26,6 +28,14 @@ public class PlayerActions : MonoBehaviour
 
     void FixedUpdate()
     {
+
+        if (escapePressed)
+        {
+            settingsPanel.SetActive(!settingsPanel.activeSelf);
+            Debug.Log("Settings panel is active: " + settingsPanel.activeSelf);
+        }
+        escapePressed = false;
+
         // Ground check
         isGrounded = Physics2D.OverlapCircle(
             groundCheck.position,
@@ -54,11 +64,15 @@ public class PlayerActions : MonoBehaviour
     {
         jumpRequested = value.isPressed;
     }
+    public void OnOpenMenu(InputValue value)
+    {
+        escapePressed = value.isPressed;
+        Debug.Log(escapePressed);
+    }
 
     public void OnSprint(InputValue value)
     {
         isSprinting = value.isPressed;
-        Debug.Log("Sprint: " + isSprinting);
     }
 
     public void OnInteract(InputValue value)
