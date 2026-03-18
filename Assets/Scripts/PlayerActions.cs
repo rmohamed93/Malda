@@ -10,9 +10,11 @@ public class PlayerActions : MonoBehaviour
     private Rigidbody2D rb;
     private Vector2 moveInput;
     private bool isGrounded;
+    private bool wasGrounded;
     private bool isSprinting;
     private bool jumpRequested;
     private bool escapePressed;
+    private int jumpCount;
 
     public Transform groundCheck;
     public float groundCheckRadius = 0.2f;
@@ -32,27 +34,36 @@ public class PlayerActions : MonoBehaviour
         if (escapePressed)
         {
             settingsPanel.SetActive(!settingsPanel.activeSelf);
-            Debug.Log("Settings panel is active: " + settingsPanel.activeSelf);
         }
         escapePressed = false;
 
         // Ground check
-        isGrounded = Physics2D.OverlapCircle(
+        bool currentlyGrounded = Physics2D.OverlapCircle(
             groundCheck.position,
             groundCheckRadius,
             groundLayer
         );
 
+        // Landing detection
+        if (currentlyGrounded && !wasGrounded)
+        {
+            jumpCount = 0;
+        }
+
+        isGrounded = currentlyGrounded;
+        wasGrounded = currentlyGrounded;
+
         // Apply horizontal movement
         var currentSpeed = isSprinting ? moveSpeed * sprintMultiplier : moveSpeed;
         rb.linearVelocity = new Vector2(moveInput.x * currentSpeed, rb.linearVelocity.y);
 
-        // Apply jump (only once)
-        if (jumpRequested && isGrounded)
+        // Apply jump
+        if (jumpRequested && jumpCount < 2)
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
+            jumpCount++;
+            Debug.Log("jumpcount: " + jumpCount);
         }
-
         jumpRequested = false; // reset jump
     }
     public void OnMove(InputValue value)
@@ -67,7 +78,6 @@ public class PlayerActions : MonoBehaviour
     public void OnOpenMenu(InputValue value)
     {
         escapePressed = value.isPressed;
-        Debug.Log(escapePressed);
     }
 
     public void OnSprint(InputValue value)
