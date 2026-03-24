@@ -6,7 +6,6 @@ public class PlayerActions : MonoBehaviour
     public float moveSpeed = 5f;
     public float jumpForce = 10f;
     public float sprintMultiplier = 1.5f;
-    public int health = 100;
     public AudioClip jumpClip;
     public Item swordItem;
 
@@ -20,16 +19,25 @@ public class PlayerActions : MonoBehaviour
     private bool jumpRequested;
     private bool escapePressed;
     private int jumpCount;
-    private bool useSwordPressed;
     private bool isBusy;
     private Item currentItem;
-
     public Transform groundCheck;
     public float groundCheckRadius = 0.2f;
     public LayerMask groundLayer;
     public GameObject settingsPanel;
-
     private IInteractable currentInteractable;
+
+    [Header("Knockback")]
+    public float kockbackForce = 10f;
+    public float knockbackDuration = 0.2f;
+
+    [Header("Invincibility Frames")]
+    public float invincibilityTime = 1f;
+
+    private bool isKockedBack = false;
+    private bool isInvincible = false;
+
+
 
     void Awake()
     {
@@ -84,12 +92,6 @@ public class PlayerActions : MonoBehaviour
             PlayJumpAudio();
         }
         jumpRequested = false; // reset jump
-
-        if (useSwordPressed)
-        {
-            Debug.Log("sword swung");
-        }
-        useSwordPressed = false;
     }
     public void OnMove(InputValue value)
     {
@@ -158,4 +160,5 @@ public class PlayerActions : MonoBehaviour
     {
         isBusy = false;
     }
+
 }
