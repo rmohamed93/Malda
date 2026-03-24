@@ -6,8 +6,13 @@ public class PlayerActions : MonoBehaviour
     public float moveSpeed = 5f;
     public float jumpForce = 10f;
     public float sprintMultiplier = 1.5f;
+    public int health = 100;
+    public AudioClip jumpClip;
+    public Item swordItem;
+
 
     private Rigidbody2D rb;
+    private AudioSource audioSource;
     private Vector2 moveInput;
     private bool isGrounded;
     private bool wasGrounded;
@@ -15,6 +20,9 @@ public class PlayerActions : MonoBehaviour
     private bool jumpRequested;
     private bool escapePressed;
     private int jumpCount;
+    private bool useSwordPressed;
+    private bool isBusy;
+    private Item currentItem;
 
     public Transform groundCheck;
     public float groundCheckRadius = 0.2f;
@@ -26,11 +34,22 @@ public class PlayerActions : MonoBehaviour
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        audioSource = GetComponent<AudioSource>();
+        if (audioSource == null)
+        {
+            Debug.LogError("AudioSource component not found");
+        }
+        if (jumpClip == null)
+        {
+            Debug.LogError("AudioClip not assigned");
+        }
+        swordItem?.Initialize(gameObject);
     }
 
     void FixedUpdate()
     {
 
+        // Menu open/close
         if (escapePressed)
         {
             settingsPanel.SetActive(!settingsPanel.activeSelf);
@@ -62,9 +81,15 @@ public class PlayerActions : MonoBehaviour
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
             jumpCount++;
-            Debug.Log("jumpcount: " + jumpCount);
+            PlayJumpAudio();
         }
         jumpRequested = false; // reset jump
+
+        if (useSwordPressed)
+        {
+            Debug.Log("sword swung");
+        }
+        useSwordPressed = false;
     }
     public void OnMove(InputValue value)
     {
@@ -74,6 +99,13 @@ public class PlayerActions : MonoBehaviour
     public void OnJump(InputValue value)
     {
         jumpRequested = value.isPressed;
+    }
+    public void PlayJumpAudio()
+    {
+        if (audioSource != null && jumpClip != null)
+        {
+            audioSource.PlayOneShot(jumpClip);
+        }
     }
     public void OnOpenMenu(InputValue value)
     {
@@ -90,6 +122,11 @@ public class PlayerActions : MonoBehaviour
         currentInteractable?.Interact();
     }
 
+    public void OnUseSword()
+    {
+        UseItem(swordItem);
+    }
+
     public void SetCurrentInteractable(Interactable interactable)
     {
         currentInteractable = interactable.GetComponent<IInteractable>();
@@ -101,5 +138,24 @@ public class PlayerActions : MonoBehaviour
         {
             currentInteractable = null;
         }
+    }
+
+    void UseItem(Item item)
+    {
+        if (item == null || isBusy)
+        {
+            return;
+        }
+        currentItem = item;
+        isBusy = true;
+
+        item.Use();
+
+        Invoke(nameof(ClearBusy), 0.3f);
+    }
+
+    void ClearBusy()
+    {
+        isBusy = false;
     }
 }
