@@ -76,4 +76,4 @@ _Potential features, provided time allows, may also include adding NPCs with dia
 - Code Monkey
 
 # License
-_(Pending: license under which the project is released, if any, will be listed here. This clarifies how others can use, modify, and distribute the game.)_
+https://craftpix.net/file-licenses/
