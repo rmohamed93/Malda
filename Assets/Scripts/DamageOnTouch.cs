@@ -6,9 +6,10 @@ public class DamageOnTouch : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Player"))
+        PlayerHealth player = collision.gameObject.GetComponent<PlayerHealth>();
+        if (player != null)
         {
-            collision.gameObject.GetComponent<PlayerHealth>()?.TakeDamage(damage);
+            player.TakeDamage(damage, transform.position);
         }
     }
 }
