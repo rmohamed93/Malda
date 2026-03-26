@@ -1,0 +1,2886 @@
+fileFormatVersion: 2
+guid: 098b4aab45b34a897afd6e3522974032
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1492060336910650392
+    second: Falling-stalactites_0
+  - first:
+      213: 5821324210662638984
+    second: Falling-stalactites_1
+  - first:
+      213: -796379376303616710
+    second: Falling-stalactites_2
+  - first:
+      213: 3728062726932551378
+    second: Falling-stalactites_3
+  - first:
+      213: -3552592374167052084
+    second: Falling-stalactites_4
+  - first:
+      213: 7404192510345919245
+    second: Falling-stalactites_5
+  - first:
+      213: -6620456500849297775
+    second: Falling-stalactites_6
+  - first:
+      213: -1950145447086172514
+    second: Falling-stalactites_7
+  - first:
+      213: -6429751697680454137
+    second: Falling-stalactites_8
+  - first:
+      213: 6144989748857270451
+    second: Falling-stalactites_9
+  - first:
+      213: 1295553388218565371
+    second: Falling-stalactites_10
+  - first:
+      213: -6372853089013513313
+    second: Falling-stalactites_11
+  - first:
+      213: -2657952724168654818
+    second: Falling-stalactites_12
+  - first:
+      213: -8716381281972583420
+    second: Falling-stalactites_13
+  - first:
+      213: 2787838893217614052
+    second: Falling-stalactites_14
+  - first:
+      213: -2635887962656830208
+    second: Falling-stalactites_15
+  - first:
+      213: -271246284135848489
+    second: Falling-stalactites_16
+  - first:
+      213: 7239306834008661327
+    second: Falling-stalactites_17
+  - first:
+      213: -6343859916587519330
+    second: Falling-stalactites_18
+  - first:
+      213: 9122535944960505227
+    second: Falling-stalactites_19
+  - first:
+      213: -3849990757246538409
+    second: Falling-stalactites_20
+  - first:
+      213: 1867085837814384918
+    second: Falling-stalactites_21
+  - first:
+      213: 8874964670562115979
+    second: Falling-stalactites_22
+  - first:
+      213: 4352031442939330131
+    second: Falling-stalactites_23
+  - first:
+      213: -1216955041808829956
+    second: Falling-stalactites_24
+  - first:
+      213: 8811777492844099350
+    second: Falling-stalactites_25
+  - first:
+      213: -7476858514059105728
+    second: Falling-stalactites_26
+  - first:
+      213: -5244435404111617814
+    second: Falling-stalactites_27
+  - first:
+      213: 7031245783532798756
+    second: Falling-stalactites_28
+  - first:
+      213: -6458712678644236831
+    second: Falling-stalactites_29
+  - first:
+      213: -7261954180592601349
+    second: Falling-stalactites_30
+  - first:
+      213: -4060262878955399005
+    second: Falling-stalactites_31
+  - first:
+      213: -5247925356225989662
+    second: Falling-stalactites_32
+  - first:
+      213: 8710791494801315204
+    second: Falling-stalactites_33
+  - first:
+      213: -5296270650561104108
+    second: Falling-stalactites_34
+  - first:
+      213: -8629702936701564555
+    second: Falling-stalactites_35
+  - first:
+      213: 924454085939849978
+    second: Falling-stalactites_36
+  - first:
+      213: -6166348372922079322
+    second: Falling-stalactites_37
+  - first:
+      213: -3433470006725937736
+    second: Falling-stalactites_38
+  - first:
+      213: 5188723611266780867
+    second: Falling-stalactites_39
+  - first:
+      213: 3601139844557629683
+    second: Falling-stalactites_40
+  - first:
+      213: -5271344823241281141
+    second: Falling-stalactites_41
+  - first:
+      213: 7994787043550621275
+    second: Falling-stalactites_42
+  - first:
+      213: -3448619735125379812
+    second: Falling-stalactites_43
+  - first:
+      213: -6368607181992105050
+    second: Falling-stalactites_44
+  - first:
+      213: -102662463100334756
+    second: Falling-stalactites_45
+  - first:
+      213: -6007193546678759859
+    second: Falling-stalactites_46
+  - first:
+      213: -7272004599353258563
+    second: Falling-stalactites_47
+  - first:
+      213: -5944737012515009059
+    second: Falling-stalactites_48
+  - first:
+      213: -2459477776675187325
+    second: Falling-stalactites_49
+  - first:
+      213: -5110442431073487844
+    second: Falling-stalactites_50
+  - first:
+      213: 1037550295207736394
+    second: Falling-stalactites_51
+  - first:
+      213: -3209275322876264544
+    second: Falling-stalactites_52
+  - first:
+      213: -2610550956670650860
+    second: Falling-stalactites_53
+  - first:
+      213: 2073083506689228670
+    second: Falling-stalactites_54
+  - first:
+      213: -2457018093341445469
+    second: Falling-stalactites_55
+  - first:
+      213: 3784278068842093458
+    second: Falling-stalactites_56
+  - first:
+      213: 3144621621880227397
+    second: Falling-stalactites_57
+  - first:
+      213: -5124789734573267854
+    second: Falling-stalactites_58
+  - first:
+      213: -1998096502696781575
+    second: Falling-stalactites_59
+  - first:
+      213: 4266570055033447433
+    second: Falling-stalactites_60
+  - first:
+      213: 2377547503300987698
+    second: Falling-stalactites_61
+  - first:
+      213: 1199485504924446846
+    second: Falling-stalactites_62
+  - first:
+      213: 3126387720054915798
+    second: Falling-stalactites_63
+  - first:
+      213: 2096744391691736790
+    second: Falling-stalactites_64
+  - first:
+      213: 1694666430106896559
+    second: Falling-stalactites_65
+  - first:
+      213: -4157260460427470662
+    second: Falling-stalactites_66
+  - first:
+      213: 4367678625857387626
+    second: Falling-stalactites_67
+  - first:
+      213: 7493554768700210315
+    second: Falling-stalactites_68
+  - first:
+      213: 882133004812796738
+    second: Falling-stalactites_69
+  - first:
+      213: -7260466906716467283
+    second: Falling-stalactites_70
+  - first:
+      213: -5483533646067524319
+    second: Falling-stalactites_71
+  - first:
+      213: -759000163518230426
+    second: Falling-stalactites_72
+  - first:
+      213: 738106058789543731
+    second: Falling-stalactites_73
+  - first:
+      213: 3871070317516582969
+    second: Falling-stalactites_74
+  - first:
+      213: 1167745119016138844
+    second: Falling-stalactites_75
+  - first:
+      213: -2567178845609651537
+    second: Falling-stalactites_76
+  - first:
+      213: -9116192267294628938
+    second: Falling-stalactites_77
+  - first:
+      213: -2455334143270736926
+    second: Falling-stalactites_78
+  - first:
+      213: -797875515804342167
+    second: Falling-stalactites_79
+  - first:
+      213: 8749077734342310517
+    second: Falling-stalactites_80
+  - first:
+      213: 2095052317083201527
+    second: Falling-stalactites_81
+  - first:
+      213: 965111540213133843
+    second: Falling-stalactites_82
+  - first:
+      213: 2001330209230439922
+    second: Falling-stalactites_83
+  - first:
+      213: -3041373464840019055
+    second: Falling-stalactites_84
+  - first:
+      213: -716654078378673776
+    second: Falling-stalactites_85
+  - first:
+      213: 7662385740817389839
+    second: Falling-stalactites_86
+  - first:
+      213: 1131424607513805843
+    second: Falling-stalactites_87
+  - first:
+      213: -7892539717997781184
+    second: Falling-stalactites_88
+  - first:
+      213: 729280403526850592
+    second: Falling-stalactites_89
+  - first:
+      213: -2852013683981746043
+    second: Falling-stalactites_90
+  - first:
+      213: 5486937187761414117
+    second: Falling-stalactites_91
+  - first:
+      213: -6810619203578544725
+    second: Falling-stalactites_92
+  - first:
+      213: 3013537014634331029
+    second: Falling-stalactites_93
+  - first:
+      213: 8626882279077430602
+    second: Falling-stalactites_94
+  - first:
+      213: -1142673140415154023
+    second: Falling-stalactites_95
+  - first:
+      213: -1292117977290294368
+    second: Falling-stalactites_96
+  - first:
+      213: 7814681243249883823
+    second: Falling-stalactites_97
+  - first:
+      213: -898642108647579842
+    second: Falling-stalactites_98
+  - first:
+      213: -2801238087215754641
+    second: Falling-stalactites_99
+  - first:
+      213: -8487917897256319127
+    second: Falling-stalactites_100
+  - first:
+      213: -1554728312618578946
+    second: Falling-stalactites_101
+  - first:
+      213: 4598863257197307882
+    second: Falling-stalactites_102
+  - first:
+      213: -7714315485580164481
+    second: Falling-stalactites_103
+  - first:
+      213: -6972990411206719274
+    second: Falling-stalactites_104
+  - first:
+      213: 2962641744000596819
+    second: Falling-stalactites_105
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Falling-stalactites_0
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 1823
+        width: 31
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e3bdf267032b4be0800000000000000
+      internalID: -1492060336910650392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_1
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1837
+        width: 31
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8858de2e68f79c050800000000000000
+      internalID: 5821324210662638984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_2
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 1711
+        width: 31
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3dc9f83d21b2f4f0800000000000000
+      internalID: -796379376303616710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_3
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1725
+        width: 31
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d6503b4c4dbcb330800000000000000
+      internalID: 3728062726932551378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_4
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 1643
+        width: 27
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc0e202ee08a2bec0800000000000000
+      internalID: -3552592374167052084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_5
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1644
+        width: 27
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0bb6cbebd9f0c660800000000000000
+      internalID: 7404192510345919245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_6
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 1551
+        width: 31
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 196b3ff93e96f14a0800000000000000
+      internalID: -6620456500849297775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_7
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1565
+        width: 31
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9655165c01bfe4e0800000000000000
+      internalID: -1950145447086172514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_8
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 1456
+        width: 27
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70eaac1b5eee4c6a0800000000000000
+      internalID: -6429751697680454137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_9
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1456
+        width: 27
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b0fd097e93674550800000000000000
+      internalID: 6144989748857270451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_10
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 1391
+        width: 31
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf2425441fabaf110800000000000000
+      internalID: 1295553388218565371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_11
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1405
+        width: 31
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f93499f51e31f87a0800000000000000
+      internalID: -6372853089013513313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_12
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 1296
+        width: 29
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e10452e641e0d1bd0800000000000000
+      internalID: -2657952724168654818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_13
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1296
+        width: 29
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4040929c761390780800000000000000
+      internalID: -8716381281972583420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_14
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 1231
+        width: 31
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e80149e3b460b620800000000000000
+      internalID: 2787838893217614052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_15
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1245
+        width: 31
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00d8c1e0dd17b6bd0800000000000000
+      internalID: -2635887962656830208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_16
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 1135
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d5207311f65c3cf0800000000000000
+      internalID: -271246284135848489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_17
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1174
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4dd425c53f277460800000000000000
+      internalID: 7239306834008661327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_18
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 1135
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9236fe540516f7a0800000000000000
+      internalID: -6343859916587519330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_19
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1174
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b857a12db12c99e70800000000000000
+      internalID: 9122535944960505227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_20
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 1071
+        width: 31
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75d68cdedc5129ac0800000000000000
+      internalID: -3849990757246538409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_21
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1085
+        width: 31
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 619c6106da839e910800000000000000
+      internalID: 1867085837814384918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_22
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 975
+        width: 47
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b812ff6a8553a2b70800000000000000
+      internalID: 8874964670562115979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_23
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1003
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35ebabf0a85856c30800000000000000
+      internalID: 4352031442939330131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_24
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 975
+        width: 47
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf13d5156d18c1fe0800000000000000
+      internalID: -1216955041808829956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_25
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1003
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61731c461f8b94a70800000000000000
+      internalID: 8811777492844099350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_26
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 987
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04ae6a9abccdc3890800000000000000
+      internalID: -7476858514059105728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_27
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 987
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae0e17249c50837b0800000000000000
+      internalID: -5244435404111617814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_28
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 911
+        width: 31
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4238fe779c0049160800000000000000
+      internalID: 7031245783532798756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_29
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 925
+        width: 31
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ed391bd90b0e56a0800000000000000
+      internalID: -6458712678644236831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_30
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 815
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf67d92f52b583b90800000000000000
+      internalID: -7261954180592601349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_31
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 835
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a8982d7c6c07a7c0800000000000000
+      internalID: -4060262878955399005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_32
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 839
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e3726671bf9b27b0800000000000000
+      internalID: -5247925356225989662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_33
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 836
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 485502876b2f2e870800000000000000
+      internalID: 8710791494801315204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_34
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 815
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4177af677eddf76b0800000000000000
+      internalID: -5296270650561104108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_35
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 835
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57902c4b6e22d3880800000000000000
+      internalID: -8629702936701564555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_36
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 839
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afa6a9bd71254dc00800000000000000
+      internalID: 924454085939849978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_37
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 836
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a7eba653dabc6aa0800000000000000
+      internalID: -6166348372922079322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_38
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 829
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b5742e583dd950d0800000000000000
+      internalID: -3433470006725937736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_39
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 825
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ce0d3722ac020840800000000000000
+      internalID: 5188723611266780867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_40
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 831
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f8ec55eb91d9f130800000000000000
+      internalID: 3601139844557629683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_41
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 826
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b81fb12efcb68d6b0800000000000000
+      internalID: -5271344823241281141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_42
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 829
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5eeab9357033fe60800000000000000
+      internalID: 7994787043550621275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_43
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 825
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c15337a5f9a0420d0800000000000000
+      internalID: -3448619735125379812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_44
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 831
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6abeb53a2892e97a0800000000000000
+      internalID: -6368607181992105050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_45
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 826
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5d4323a805439ef0800000000000000
+      internalID: -102662463100334756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_46
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 818
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4e8139fb4922aca0800000000000000
+      internalID: -6007193546678759859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_47
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 819
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbdca8a7856a41b90800000000000000
+      internalID: -7272004599353258563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_48
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 811
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddd0de50f2d008da0800000000000000
+      internalID: -5944737012515009059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_49
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 822
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 385de443efd2eddd0800000000000000
+      internalID: -2459477776675187325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_50
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 819
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c14f7ca6faf0419b0800000000000000
+      internalID: -5110442431073487844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_51
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 818
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a44757e0f7e166e00800000000000000
+      internalID: 1037550295207736394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_52
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 819
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0af7889e81d5673d0800000000000000
+      internalID: -3209275322876264544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_53
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 811
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 416f6977cb575cbd0800000000000000
+      internalID: -2610550956670650860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_54
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 822
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7fbee5377215cc10800000000000000
+      internalID: 2073083506689228670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_55
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 819
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a2fcabdf0be6edd0800000000000000
+      internalID: -2457018093341445469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_56
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 813
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29b52a88ad4748430800000000000000
+      internalID: 3784278068842093458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_57
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 813
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5460f2544b0f3ab20800000000000000
+      internalID: 3144621621880227397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_58
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 751
+        width: 31
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 274213283e611e8b0800000000000000
+      internalID: -5124789734573267854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_59
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 765
+        width: 31
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f8dec131d55544e0800000000000000
+      internalID: -1998096502696781575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_60
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 673
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 904669b1cd6e53b30800000000000000
+      internalID: 4266570055033447433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_61
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 680
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23b4fd28bdebef020800000000000000
+      internalID: 2377547503300987698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_62
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 678
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e70704a26bd65a010800000000000000
+      internalID: 1199485504924446846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_63
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 676
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d2440c2119236b20800000000000000
+      internalID: 3126387720054915798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_64
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 673
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d6149b4ae1291d10800000000000000
+      internalID: 2096744391691736790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_65
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 680
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa80d43b32aa48710800000000000000
+      internalID: 1694666430106896559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_66
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 678
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab8917923a17e46c0800000000000000
+      internalID: -4157260460427470662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_67
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 676
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6cbb4bb19c1d9c30800000000000000
+      internalID: 4367678625857387626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_68
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 670
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8c7f4d0c547ef760800000000000000
+      internalID: 7493554768700210315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_69
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 664
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 243c38c4b47fd3c00800000000000000
+      internalID: 882133004812796738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_70
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 666
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daf8fa1e0d3ad3b90800000000000000
+      internalID: -7260466906716467283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_71
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 662
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12d1e30b33396e3b0800000000000000
+      internalID: -5483533646067524319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_72
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 670
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66058056f5d7775f0800000000000000
+      internalID: -759000163518230426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_73
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 667
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33fd6b0cc874e3a00800000000000000
+      internalID: 738106058789543731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_74
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 670
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9307228a1fdc8b530800000000000000
+      internalID: 3871070317516582969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_75
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 664
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c58372faff9a43010800000000000000
+      internalID: 1167745119016138844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_76
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 666
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa21a80017c8f5cd0800000000000000
+      internalID: -2567178845609651537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_77
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 662
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b3adbbbe67cc7180800000000000000
+      internalID: -9116192267294628938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_78
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 670
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2eba5790b96ecedd0800000000000000
+      internalID: -2455334143270736926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_79
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 667
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 968208912706de4f0800000000000000
+      internalID: -797875515804342167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_80
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 657
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57ab0c348d7fa6970800000000000000
+      internalID: 8749077734342310517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_81
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 657
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ff6a997bfe131d10800000000000000
+      internalID: 2095052317083201527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_82
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 663
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 312b80b15d3c46d00800000000000000
+      internalID: 965111540213133843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_83
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 656
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f54077c83726cb10800000000000000
+      internalID: 2001330209230439922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_84
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 657
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19369e692fedac5d0800000000000000
+      internalID: -3041373464840019055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_85
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 657
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0997767a9eeed06f0800000000000000
+      internalID: -716654078378673776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_86
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 663
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f095075fb33465a60800000000000000
+      internalID: 7662385740817389839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_87
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 656
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3140ffc9fa0a3bf00800000000000000
+      internalID: 1131424607513805843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_88
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 655
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04f941561f0187290800000000000000
+      internalID: -7892539717997781184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_89
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 650
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0281fd1c9acee1a00800000000000000
+      internalID: 729280403526850592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_90
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 651
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58007bf3aac9b68d0800000000000000
+      internalID: -2852013683981746043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_91
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 649
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ef566d1d44852c40800000000000000
+      internalID: 5486937187761414117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_92
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 654
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bad3f362be1db71a0800000000000000
+      internalID: -6810619203578544725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_93
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 655
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59b35cac2fb32d920800000000000000
+      internalID: 3013537014634331029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_94
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 650
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a45c583c9b7d8b770800000000000000
+      internalID: 8626882279077430602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_95
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 651
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 998bc2b35d86420f0800000000000000
+      internalID: -1142673140415154023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_96
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 649
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ab37bbab89711ee0800000000000000
+      internalID: -1292117977290294368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_97
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 654
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faa31d0df23537c60800000000000000
+      internalID: 7814681243249883823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_98
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 488
+        width: 61
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3f5add63c16783f0800000000000000
+      internalID: -898642108647579842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_99
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 605
+        width: 31
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f62d5302dc00029d0800000000000000
+      internalID: -2801238087215754641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_100
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 424
+        width: 31
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9674b53b4abd43a80800000000000000
+      internalID: -8487917897256319127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_101
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 438
+        width: 61
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efb802446de7c6ae0800000000000000
+      internalID: -1554728312618578946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_102
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 249
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae767df34c172df30800000000000000
+      internalID: 4598863257197307882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_103
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 263
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7203b420fe31f490800000000000000
+      internalID: -7714315485580164481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_104
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 76
+        width: 31
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d881dd5a26fa3f90800000000000000
+      internalID: -6972990411206719274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Falling-stalactites_105
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 90
+        width: 31
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35b36eb28fa6d1920800000000000000
+      internalID: 2962641744000596819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Falling-stalactites_0: -1492060336910650392
+      Falling-stalactites_1: 5821324210662638984
+      Falling-stalactites_10: 1295553388218565371
+      Falling-stalactites_100: -8487917897256319127
+      Falling-stalactites_101: -1554728312618578946
+      Falling-stalactites_102: 4598863257197307882
+      Falling-stalactites_103: -7714315485580164481
+      Falling-stalactites_104: -6972990411206719274
+      Falling-stalactites_105: 2962641744000596819
+      Falling-stalactites_11: -6372853089013513313
+      Falling-stalactites_12: -2657952724168654818
+      Falling-stalactites_13: -8716381281972583420
+      Falling-stalactites_14: 2787838893217614052
+      Falling-stalactites_15: -2635887962656830208
+      Falling-stalactites_16: -271246284135848489
+      Falling-stalactites_17: 7239306834008661327
+      Falling-stalactites_18: -6343859916587519330
+      Falling-stalactites_19: 9122535944960505227
+      Falling-stalactites_2: -796379376303616710
+      Falling-stalactites_20: -3849990757246538409
+      Falling-stalactites_21: 1867085837814384918
+      Falling-stalactites_22: 8874964670562115979
+      Falling-stalactites_23: 4352031442939330131
+      Falling-stalactites_24: -1216955041808829956
+      Falling-stalactites_25: 8811777492844099350
+      Falling-stalactites_26: -7476858514059105728
+      Falling-stalactites_27: -5244435404111617814
+      Falling-stalactites_28: 7031245783532798756
+      Falling-stalactites_29: -6458712678644236831
+      Falling-stalactites_3: 3728062726932551378
+      Falling-stalactites_30: -7261954180592601349
+      Falling-stalactites_31: -4060262878955399005
+      Falling-stalactites_32: -5247925356225989662
+      Falling-stalactites_33: 8710791494801315204
+      Falling-stalactites_34: -5296270650561104108
+      Falling-stalactites_35: -8629702936701564555
+      Falling-stalactites_36: 924454085939849978
+      Falling-stalactites_37: -6166348372922079322
+      Falling-stalactites_38: -3433470006725937736
+      Falling-stalactites_39: 5188723611266780867
+      Falling-stalactites_4: -3552592374167052084
+      Falling-stalactites_40: 3601139844557629683
+      Falling-stalactites_41: -5271344823241281141
+      Falling-stalactites_42: 7994787043550621275
+      Falling-stalactites_43: -3448619735125379812
+      Falling-stalactites_44: -6368607181992105050
+      Falling-stalactites_45: -102662463100334756
+      Falling-stalactites_46: -6007193546678759859
+      Falling-stalactites_47: -7272004599353258563
+      Falling-stalactites_48: -5944737012515009059
+      Falling-stalactites_49: -2459477776675187325
+      Falling-stalactites_5: 7404192510345919245
+      Falling-stalactites_50: -5110442431073487844
+      Falling-stalactites_51: 1037550295207736394
+      Falling-stalactites_52: -3209275322876264544
+      Falling-stalactites_53: -2610550956670650860
+      Falling-stalactites_54: 2073083506689228670
+      Falling-stalactites_55: -2457018093341445469
+      Falling-stalactites_56: 3784278068842093458
+      Falling-stalactites_57: 3144621621880227397
+      Falling-stalactites_58: -5124789734573267854
+      Falling-stalactites_59: -1998096502696781575
+      Falling-stalactites_6: -6620456500849297775
+      Falling-stalactites_60: 4266570055033447433
+      Falling-stalactites_61: 2377547503300987698
+      Falling-stalactites_62: 1199485504924446846
+      Falling-stalactites_63: 3126387720054915798
+      Falling-stalactites_64: 2096744391691736790
+      Falling-stalactites_65: 1694666430106896559
+      Falling-stalactites_66: -4157260460427470662
+      Falling-stalactites_67: 4367678625857387626
+      Falling-stalactites_68: 7493554768700210315
+      Falling-stalactites_69: 882133004812796738
+      Falling-stalactites_7: -1950145447086172514
+      Falling-stalactites_70: -7260466906716467283
+      Falling-stalactites_71: -5483533646067524319
+      Falling-stalactites_72: -759000163518230426
+      Falling-stalactites_73: 738106058789543731
+      Falling-stalactites_74: 3871070317516582969
+      Falling-stalactites_75: 1167745119016138844
+      Falling-stalactites_76: -2567178845609651537
+      Falling-stalactites_77: -9116192267294628938
+      Falling-stalactites_78: -2455334143270736926
+      Falling-stalactites_79: -797875515804342167
+      Falling-stalactites_8: -6429751697680454137
+      Falling-stalactites_80: 8749077734342310517
+      Falling-stalactites_81: 2095052317083201527
+      Falling-stalactites_82: 965111540213133843
+      Falling-stalactites_83: 2001330209230439922
+      Falling-stalactites_84: -3041373464840019055
+      Falling-stalactites_85: -716654078378673776
+      Falling-stalactites_86: 7662385740817389839
+      Falling-stalactites_87: 1131424607513805843
+      Falling-stalactites_88: -7892539717997781184
+      Falling-stalactites_89: 729280403526850592
+      Falling-stalactites_9: 6144989748857270451
+      Falling-stalactites_90: -2852013683981746043
+      Falling-stalactites_91: 5486937187761414117
+      Falling-stalactites_92: -6810619203578544725
+      Falling-stalactites_93: 3013537014634331029
+      Falling-stalactites_94: 8626882279077430602
+      Falling-stalactites_95: -1142673140415154023
+      Falling-stalactites_96: -1292117977290294368
+      Falling-stalactites_97: 7814681243249883823
+      Falling-stalactites_98: -898642108647579842
+      Falling-stalactites_99: -2801238087215754641
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
