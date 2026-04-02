@@ -90,10 +90,13 @@ public class PlayerActions : MonoBehaviour
         isGrounded = currentlyGrounded;
         wasGrounded = currentlyGrounded;
 
+        anim.SetBool("Ground",isGrounded);
+
         // Apply horizontal movement
         var currentSpeed = isSprinting ? moveSpeed * sprintMultiplier : moveSpeed;
         rb.linearVelocity = new Vector2(moveInput.x * currentSpeed, rb.linearVelocity.y);
         anim.SetFloat("Speed", Mathf.Abs(rb.linearVelocity.x));
+        anim.SetFloat("Jump", Mathf.Abs(rb.linearVelocity.y));
 
         // Flip
         HandleFlip();
