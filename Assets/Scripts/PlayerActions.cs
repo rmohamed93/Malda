@@ -36,6 +36,8 @@ public class PlayerActions : MonoBehaviour
     public Item swordItem;
     private PlayerHealth playerHealth;
 
+    private Animator anim;
+
     void Awake()
     {
         // get rigidbody of player
@@ -54,6 +56,8 @@ public class PlayerActions : MonoBehaviour
 
         // get player health component
         playerHealth = GetComponent<PlayerHealth>();
+
+        anim = GetComponent<Animator>();
 
         // get and initialize the sword on player
         swordItem?.Initialize(gameObject);
@@ -86,9 +90,13 @@ public class PlayerActions : MonoBehaviour
         isGrounded = currentlyGrounded;
         wasGrounded = currentlyGrounded;
 
+        anim.SetBool("Ground",isGrounded);
+
         // Apply horizontal movement
         var currentSpeed = isSprinting ? moveSpeed * sprintMultiplier : moveSpeed;
         rb.linearVelocity = new Vector2(moveInput.x * currentSpeed, rb.linearVelocity.y);
+        anim.SetFloat("Speed", Mathf.Abs(rb.linearVelocity.x));
+        anim.SetFloat("Jump", Mathf.Abs(rb.linearVelocity.y));
 
         // Flip
         HandleFlip();
