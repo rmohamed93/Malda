@@ -77,3 +77,4 @@ _Potential features, provided time allows, may also include adding NPCs with dia
 
 # License
 https://craftpix.net/file-licenses/
+https://unity.com/legal/terms-of-service
