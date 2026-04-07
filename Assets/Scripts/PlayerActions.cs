@@ -25,10 +25,12 @@ public class PlayerActions : MonoBehaviour
 
     [Header("Components")]
     private Rigidbody2D rb;
+    private SpriteRenderer spriteRenderer;
     private AudioSource audioSource;
     private Vector2 moveInput;
     private Item currentItem;
     public Transform groundCheck;
+    private Transform attackPoint;
     public LayerMask groundLayer;
     public GameObject settingsPanel;
     private IInteractable currentInteractable;
@@ -42,6 +44,8 @@ public class PlayerActions : MonoBehaviour
     {
         // get rigidbody of player
         rb = GetComponent<Rigidbody2D>();
+
+        spriteRenderer = GetComponent<SpriteRenderer>();
 
         // get audioSource component
         audioSource = GetComponent<AudioSource>();
@@ -90,7 +94,7 @@ public class PlayerActions : MonoBehaviour
         isGrounded = currentlyGrounded;
         wasGrounded = currentlyGrounded;
 
-        anim.SetBool("Ground",isGrounded);
+        anim.SetBool("Ground", isGrounded);
 
         // Apply horizontal movement
         var currentSpeed = isSprinting ? moveSpeed * sprintMultiplier : moveSpeed;
@@ -216,10 +220,7 @@ public class PlayerActions : MonoBehaviour
     void Flip()
     {
         facingRight = !facingRight;
-
-        Vector3 scale = transform.localScale;
-        scale.x *= -1;
-        transform.localScale = scale;
+        spriteRenderer.flipX = !spriteRenderer.flipX;
     }
 
 }
