@@ -47,8 +47,6 @@ public class PlayerActions : MonoBehaviour
 
         spriteRenderer = GetComponent<SpriteRenderer>();
 
-        attackPoint
-
         // get audioSource component
         audioSource = GetComponent<AudioSource>();
         if (audioSource == null)
@@ -96,7 +94,7 @@ public class PlayerActions : MonoBehaviour
         isGrounded = currentlyGrounded;
         wasGrounded = currentlyGrounded;
 
-        anim.SetBool("Ground",isGrounded);
+        anim.SetBool("Ground", isGrounded);
 
         // Apply horizontal movement
         var currentSpeed = isSprinting ? moveSpeed * sprintMultiplier : moveSpeed;
