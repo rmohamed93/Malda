@@ -119,6 +119,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!4 &127251502 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4268130460910770834, guid: 3cb1950684b03c88b818bd2750100690, type: 3}
+  m_PrefabInstance: {fileID: 2116169606}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &233032024
 GameObject:
   m_ObjectHideFlags: 0
@@ -233,7 +238,7 @@ SpriteShapeRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
+  m_DynamicOccludee: 0
   m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
@@ -453,7 +458,7 @@ SpriteShapeRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
+  m_DynamicOccludee: 0
   m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
@@ -796,6 +801,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Door
   sceneToLoad: Level 1
+  soundEffectClip: {fileID: 0}
 --- !u!61 &1251223275
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1125,7 +1131,7 @@ SpriteShapeRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
+  m_DynamicOccludee: 0
   m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
@@ -7633,7 +7639,7 @@ SpriteShapeRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
+  m_DynamicOccludee: 0
   m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
@@ -7700,6 +7706,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 4163970648440320139, guid: 3cb1950684b03c88b818bd2750100690, type: 3}
+      propertyPath: attackPoint
+      value: 
+      objectReference: {fileID: 127251502}
     - target: {fileID: 7034202349182951045, guid: 3cb1950684b03c88b818bd2750100690, type: 3}
       propertyPath: m_LocalScale.x
       value: 1

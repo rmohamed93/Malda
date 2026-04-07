@@ -197,12 +197,20 @@ public class PlayerActions : MonoBehaviour
 
         item.Use();
 
+        if (currentItem is Sword) {
+            Debug.Log("Set Attack");
+            anim.SetBool("Attacking", true);
+        }
+
+        Debug.Log("Using Item");
+
         Invoke(nameof(ClearBusy), 0.3f);
     }
 
     void ClearBusy()
     {
         isBusy = false;
+        anim.SetBool("Attacking", false);
     }
 
     void HandleFlip()
