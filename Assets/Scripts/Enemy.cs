@@ -7,10 +7,12 @@ public class Enemy : MonoBehaviour
     [SerializeField] private bool flip;
 
     [SerializeField] private float speed;
+
+    private Animator anim;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -29,6 +31,7 @@ public class Enemy : MonoBehaviour
         }
 
             transform.localScale = scale;
+             anim.SetFloat("Speed", Mathf.Abs(scale.x));
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
