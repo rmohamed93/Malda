@@ -30,14 +30,13 @@ public class PlayerActions : MonoBehaviour
     private Vector2 moveInput;
     private Item currentItem;
     public Transform groundCheck;
-    private Transform attackPoint;
     public LayerMask groundLayer;
     public GameObject settingsPanel;
     private IInteractable currentInteractable;
     public AudioClip jumpClip;
     public Item swordItem;
     private PlayerHealth playerHealth;
-
+    private Transform attackPoint;
     private Animator anim;
 
     void Awake()
@@ -46,6 +45,8 @@ public class PlayerActions : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
 
         spriteRenderer = GetComponent<SpriteRenderer>();
+
+        attackPoint = transform.Find("AttackPoint");
 
         // get audioSource component
         audioSource = GetComponent<AudioSource>();
@@ -197,7 +198,8 @@ public class PlayerActions : MonoBehaviour
 
         item.Use();
 
-        if (currentItem is Sword) {
+        if (currentItem is Sword)
+        {
             Debug.Log("Set Attack");
             anim.SetBool("Attacking", true);
         }
@@ -228,7 +230,14 @@ public class PlayerActions : MonoBehaviour
     void Flip()
     {
         facingRight = !facingRight;
+
+        // Flip sprite
         spriteRenderer.flipX = !spriteRenderer.flipX;
+
+        // Flip attackpoint 
+        Vector3 scale = attackPoint.localScale;
+        scale.x *= -1;
+        attackPoint.localScale = scale;
     }
 
 }

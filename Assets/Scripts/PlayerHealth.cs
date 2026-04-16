@@ -34,6 +34,7 @@ public class PlayerHealth : MonoBehaviour
         if (isInvincible) return;
 
         currentHealth -= damage;
+        Debug.Log("playerhealth:" + currentHealth);
 
         if (currentHealth <= 0)
         {
@@ -43,6 +44,23 @@ public class PlayerHealth : MonoBehaviour
 
         StartCoroutine(HandleKnockback(damageSource));
         StartCoroutine(HandleInvincibility());
+    }
+
+    public void Heal(int healAmount)
+    {
+        if (currentHealth < maxHealth)
+        {
+            currentHealth += healAmount;
+        }
+        Debug.Log("playerhealth:" + currentHealth);
+
+    }
+
+    public void IncreaseHealth(int increaseAmount)
+    {
+        maxHealth += increaseAmount;
+        Debug.Log("Player max health: " + maxHealth);
+        Heal(increaseAmount);
     }
 
     IEnumerator HandleKnockback(Vector2 source)
