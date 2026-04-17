@@ -22,6 +22,7 @@ public class PlayerActions : MonoBehaviour
     private bool isBusy;
     private bool jumpHeld;
     private bool facingRight = true;
+    private bool hasKey;
 
     [Header("Components")]
     private Rigidbody2D rb;
@@ -66,6 +67,8 @@ public class PlayerActions : MonoBehaviour
 
         // get and initialize the sword on player
         swordItem?.Initialize(gameObject);
+
+        hasKey = false;
     }
 
     void FixedUpdate()
@@ -238,6 +241,11 @@ public class PlayerActions : MonoBehaviour
         Vector3 currPos = attackPoint.localPosition;
         currPos *= -1;
         attackPoint.localPosition = currPos;
+    }
+
+    public bool GetHasKey()
+    {
+        return hasKey;
     }
 
 }
