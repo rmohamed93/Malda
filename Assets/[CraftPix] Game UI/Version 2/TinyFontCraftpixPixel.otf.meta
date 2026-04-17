@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 97a5a19608ffca6f19525a6391aa7fb8
+=======
+guid: c6821740c3ea0664bb19ebf444a8421a
+>>>>>>> origin
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
