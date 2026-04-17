@@ -287,7 +287,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerHealth
   maxHealth: 5
-  knockbackForce: 10
+  knockbackForce: 7
   knockbackDuration: 0.2
   invincibilityTime: 1
 --- !u!1 &2583132578208604980
@@ -1031,7 +1031,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1798041498679549087, guid: 657e2ec6339e36717b0a9dabb66ee092, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1798041498679549087, guid: 657e2ec6339e36717b0a9dabb66ee092, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1104,11 +1104,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7780607429558856845, guid: 95b7ad0c0ba7a2e8086ef59f21243fcb, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 0.75
       objectReference: {fileID: 0}
     - target: {fileID: 7780607429558856845, guid: 95b7ad0c0ba7a2e8086ef59f21243fcb, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7780607429558856845, guid: 95b7ad0c0ba7a2e8086ef59f21243fcb, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1140,6 +1140,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7780607429558856845, guid: 95b7ad0c0ba7a2e8086ef59f21243fcb, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8988523306096416255, guid: 95b7ad0c0ba7a2e8086ef59f21243fcb, type: 3}
+      propertyPath: m_FlipX
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

@@ -235,9 +235,9 @@ public class PlayerActions : MonoBehaviour
         spriteRenderer.flipX = !spriteRenderer.flipX;
 
         // Flip attackpoint 
-        Vector3 scale = attackPoint.localScale;
-        scale.x *= -1;
-        attackPoint.localScale = scale;
+        Vector3 currPos = attackPoint.localPosition;
+        currPos *= -1;
+        attackPoint.localPosition = currPos;
     }
 
 }

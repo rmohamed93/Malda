@@ -105,5 +105,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Sword
   hitboxPrefab: {fileID: 2475098755945788387, guid: 5544ee865dc8d88b094c87d3962f0c56, type: 3}
-  attackPoint: {fileID: 0}
+  attackPoint: {fileID: 7780607429558856845, guid: 95b7ad0c0ba7a2e8086ef59f21243fcb, type: 3}
   attackDuration: 0.2
