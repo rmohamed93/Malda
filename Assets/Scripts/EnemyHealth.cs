@@ -6,11 +6,15 @@ public class EnemyHealth : MonoBehaviour
     public int health = 3;
     private SpriteRenderer spriteRenderer;
     private Color baseColor;
+    private Animator anim;
+    private EnemyPatrol enemyPatrol;
 
     void Awake()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
+        enemyPatrol = GetComponent<EnemyPatrol>();
         baseColor = spriteRenderer.color;
+        anim = GetComponent<Animator>();
     }
     public void TakeDamage(int damage)
     {
@@ -19,7 +23,9 @@ public class EnemyHealth : MonoBehaviour
         if (health <= 0)
         {
             Debug.Log("Enemy killed");
-            Destroy(gameObject);
+            enemyPatrol.Stop();
+            anim.SetBool("Death", true);
+            Destroy(gameObject, 3f);
         }
         StartCoroutine(FlashRed());
     }
