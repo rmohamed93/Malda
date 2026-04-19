@@ -52,9 +52,10 @@ public class EnemyPatrol : MonoBehaviour
         transform.localScale = scale;
     }
 
-    void Stop()
+    public void Stop()
     {
         rb.linearVelocity = new Vector2(0, 0);
+        rb.constraints = RigidbodyConstraints2D.FreezePosition;
         bc.enabled = false;
     }
 }
