@@ -22,6 +22,9 @@ public class Player : MonoBehaviour
     private bool isBusy;
     private bool jumpHeld;
     private bool facingRight = true;
+    private bool hasSword;
+    private bool hasSilverKey;
+    private bool hasGoldKey;
 
     [Header("Components")]
     private Rigidbody2D rb;
@@ -54,6 +57,13 @@ public class Player : MonoBehaviour
 
         // get and initialize the sword on player
         swordItem?.Initialize(gameObject);
+    }
+
+    void Start()
+    {
+        hasSword = GameManager.Instance.hasSword;
+        hasSilverKey = GameManager.Instance.hasSilverKey;
+        hasGoldKey = GameManager.Instance.hasGoldKey;
     }
 
     void FixedUpdate()
@@ -224,5 +234,18 @@ public class Player : MonoBehaviour
     public void IncreaseMaxHealth(int amount)
     {
         playerHealth.IncreaseMaxHealth(amount);
+    }
+
+    public void SetHasSword()
+    {
+        hasSword = true;
+    }
+    public void SetHasSilverKey()
+    {
+        hasSilverKey = true;
+    }
+    public void SetHasGoldKey()
+    {
+        hasGoldKey = true;
     }
 }
