@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class PlayerActions : MonoBehaviour
+public class Player : MonoBehaviour
 {
     [Header("Movement values")]
     public float moveSpeed = 5f;
@@ -22,12 +22,10 @@ public class PlayerActions : MonoBehaviour
     private bool isBusy;
     private bool jumpHeld;
     private bool facingRight = true;
-    private bool hasKey;
 
     [Header("Components")]
     private Rigidbody2D rb;
     private SpriteRenderer spriteRenderer;
-    private AudioSource audioSource;
     private Vector2 moveInput;
     private Item currentItem;
     public Transform groundCheck;
@@ -36,7 +34,7 @@ public class PlayerActions : MonoBehaviour
     private IInteractable currentInteractable;
     public AudioClip jumpClip;
     public Item swordItem;
-    private PlayerHealth playerHealth;
+    public PlayerHealth playerHealth;
     private Transform attackPoint;
     private Animator anim;
 
@@ -49,17 +47,6 @@ public class PlayerActions : MonoBehaviour
 
         attackPoint = transform.Find("AttackPoint");
 
-        // get audioSource component
-        audioSource = GetComponent<AudioSource>();
-        if (audioSource == null)
-        {
-            Debug.LogError("AudioSource component not found");
-        }
-        if (jumpClip == null)
-        {
-            Debug.LogError("AudioClip not assigned");
-        }
-
         // get player health component
         playerHealth = GetComponent<PlayerHealth>();
 
@@ -67,8 +54,6 @@ public class PlayerActions : MonoBehaviour
 
         // get and initialize the sword on player
         swordItem?.Initialize(gameObject);
-
-        hasKey = false;
     }
 
     void FixedUpdate()
@@ -114,7 +99,6 @@ public class PlayerActions : MonoBehaviour
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
             jumpCount++;
-            PlayJumpAudio();
         }
         jumpRequested = false; // reset jump
 
@@ -137,11 +121,12 @@ public class PlayerActions : MonoBehaviour
 
 
     }
+
+
     public void OnMove(InputValue value)
     {
         moveInput = value.Get<Vector2>();
     }
-
     public void OnJump(InputValue value)
     {
         if (value.isPressed)
@@ -149,13 +134,6 @@ public class PlayerActions : MonoBehaviour
             jumpRequested = true;
         }
         jumpHeld = value.isPressed;
-    }
-    public void PlayJumpAudio()
-    {
-        if (audioSource != null && jumpClip != null)
-        {
-            audioSource.PlayOneShot(jumpClip);
-        }
     }
     public void OnOpenMenu(InputValue value)
     {
@@ -169,7 +147,7 @@ public class PlayerActions : MonoBehaviour
 
     public void OnInteract(InputValue value)
     {
-        currentInteractable?.Interact();
+        currentInteractable?.Interact(this);
     }
 
     public void OnUseSword()
@@ -181,7 +159,6 @@ public class PlayerActions : MonoBehaviour
     {
         currentInteractable = interactable.GetComponent<IInteractable>();
     }
-
     public void ClearCurrentInteractable(Interactable interactable)
     {
         if (currentInteractable == interactable.GetComponent<IInteractable>())
@@ -189,7 +166,6 @@ public class PlayerActions : MonoBehaviour
             currentInteractable = null;
         }
     }
-
     void UseItem(Item item)
     {
         if (item == null || isBusy)
@@ -211,7 +187,6 @@ public class PlayerActions : MonoBehaviour
 
         Invoke(nameof(ClearBusy), 0.3f);
     }
-
     void ClearBusy()
     {
         isBusy = false;
@@ -229,7 +204,6 @@ public class PlayerActions : MonoBehaviour
             Flip();
         }
     }
-
     void Flip()
     {
         facingRight = !facingRight;
@@ -243,9 +217,12 @@ public class PlayerActions : MonoBehaviour
         attackPoint.localPosition = currPos;
     }
 
-    public bool GetHasKey()
+    public void Heal(int amount)
     {
-        return hasKey;
+        playerHealth.Heal(amount);
     }
-
+    public void IncreaseMaxHealth(int amount)
+    {
+        playerHealth.IncreaseMaxHealth(amount);
+    }
 }

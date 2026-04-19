@@ -13,6 +13,10 @@ public class GameManager : MonoBehaviour
     public bool hasSilverKey = false;
     public bool hasGoldKey = false;
 
+    // Game State
+    public int currentLevel = 0;
+    public int checkPoint = 0;
+
     // Collected world items
     public HashSet<string> collectedItems = new HashSet<string>();
 

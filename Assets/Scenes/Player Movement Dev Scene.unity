@@ -218,6 +218,56 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8703451858164403005, guid: 69b366bd496befb4bb92fa62dc98f149, type: 3}
   m_PrefabInstance: {fileID: 422948941}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &732321175
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 732321177}
+  - component: {fileID: 732321176}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &732321176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 732321175}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb2df11c3da670ab984a4b15731ad38a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GameManager
+  maxHealth: 3
+  hasSword: 0
+  hasSilverKey: 0
+  hasGoldKey: 0
+  currentLevel: 0
+  checkPoint: 0
+--- !u!4 &732321177
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 732321175}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.13641, y: -1.15599, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1158584825
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -465,6 +515,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1844973936937694128, guid: 084dfca4650a7879da158fe81570ef77, type: 3}
+      propertyPath: itemID
+      value: mushroom_1
+      objectReference: {fileID: 0}
     - target: {fileID: 4649618698698061817, guid: 084dfca4650a7879da158fe81570ef77, type: 3}
       propertyPath: m_Name
       value: Mushroom
@@ -567,6 +621,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Apple
       objectReference: {fileID: 0}
+    - target: {fileID: 6558751016807464740, guid: 80aa2828a855625188714970d33bfc50, type: 3}
+      propertyPath: itemID
+      value: apple_1
+      objectReference: {fileID: 0}
     - target: {fileID: 7673134805119951997, guid: 80aa2828a855625188714970d33bfc50, type: 3}
       propertyPath: m_LocalPosition.x
       value: -8.02
@@ -623,3 +681,4 @@ SceneRoots:
   - {fileID: 422948941}
   - {fileID: 1158584825}
   - {fileID: 1734744706}
+  - {fileID: 732321177}

@@ -6,7 +6,7 @@ public class Interactable : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            PlayerActions player = other.GetComponent<PlayerActions>();
+            Player player = other.GetComponent<Player>();
             player?.SetCurrentInteractable(this);
         }
     }
@@ -15,7 +15,7 @@ public class Interactable : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            PlayerActions player = other.GetComponent<PlayerActions>();
+            Player player = other.GetComponent<Player>();
             player?.ClearCurrentInteractable(this);
         }
     }

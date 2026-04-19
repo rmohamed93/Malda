@@ -3,19 +3,19 @@ using UnityEngine;
 public class Mushroom : MonoBehaviour, IInteractable
 {
     public int healthIncreaseAmount = 1;
-    private PlayerHealth player;
+    public string itemID;
     void Awake()
     {
-        GameObject playerObj = GameObject.FindWithTag("Player");
-        player = playerObj.GetComponent<PlayerHealth>();
     }
 
-    public void Interact()
+    public void Interact(Player player)
     {
-        if (player != null)
-        {
-            player.IncreaseHealth(healthIncreaseAmount);
-        }
+        // increase max health
+        player.IncreaseMaxHealth(healthIncreaseAmount);
+
+        // add id to gamemanager
+        GameManager.Instance.collectedItems.Add(itemID);
+
         // remove item
         Destroy(gameObject);
     }
