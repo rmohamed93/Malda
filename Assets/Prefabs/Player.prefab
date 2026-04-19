@@ -174,7 +174,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.7, y: 0.8}
   m_EdgeRadius: 0
 --- !u!114 &6386252066724918405
 MonoBehaviour:
@@ -239,7 +239,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerActions
   moveSpeed: 5
-  jumpForce: 6
+  jumpForce: 8
   sprintMultiplier: 1.5
   groundCheckRadius: 0.1
   fallMultiplier: 2.5
@@ -519,7 +519,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 7.5
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
