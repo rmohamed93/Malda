@@ -4,7 +4,7 @@ using System.Collections;
 public class PlayerHealth : MonoBehaviour
 {
     [Header("Health")]
-    public int maxHealth = 5;
+    private int maxHealth;
     private int currentHealth;
 
     [Header("Knockback")]
@@ -19,13 +19,17 @@ public class PlayerHealth : MonoBehaviour
 
     private Rigidbody2D rb;
     private SpriteRenderer spriteRenderer;
-
     public bool IsKnockedBack => isKnockedBack;
 
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
+    }
+
+    void Start()
+    {
+        maxHealth = GameManager.Instance.maxHealth;
         currentHealth = maxHealth;
     }
 
@@ -56,7 +60,7 @@ public class PlayerHealth : MonoBehaviour
 
     }
 
-    public void IncreaseHealth(int increaseAmount)
+    public void IncreaseMaxHealth(int increaseAmount)
     {
         maxHealth += increaseAmount;
         Debug.Log("Player max health: " + maxHealth);

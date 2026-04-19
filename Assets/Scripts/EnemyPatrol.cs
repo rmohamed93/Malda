@@ -12,10 +12,12 @@ public class EnemyPatrol : MonoBehaviour
 
     private Rigidbody2D rb;
     private int direction = 1;
+    private BoxCollider2D bc;
 
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        bc = GetComponent<BoxCollider2D>();
     }
 
     void FixedUpdate()
@@ -48,5 +50,12 @@ public class EnemyPatrol : MonoBehaviour
         Vector3 scale = transform.localScale;
         scale.x *= -1;
         transform.localScale = scale;
+    }
+
+    public void Stop()
+    {
+        rb.linearVelocity = new Vector2(0, 0);
+        rb.constraints = RigidbodyConstraints2D.FreezePosition;
+        bc.enabled = false;
     }
 }

@@ -3,19 +3,27 @@ using UnityEngine;
 public class Apple : MonoBehaviour, IInteractable
 {
     public int healAmount = 1;
-    private PlayerHealth player;
+    public string itemID;
 
     void Awake()
     {
-        GameObject playerObj = GameObject.FindWithTag("Player");
-        player = playerObj.GetComponent<PlayerHealth>();
     }
-    public void Interact()
+
+    void Start()
     {
-        if (player != null)
+        if (GameManager.Instance.collectedItems.Contains(itemID))
         {
-            player.Heal(healAmount);
+            Destroy(gameObject);
         }
+    }
+    public void Interact(Player player)
+    {
+        // heal player
+        player.Heal(healAmount);
+
+        // add id to gamemanager
+        GameManager.Instance.collectedItems.Add(itemID);
+
         // remove item
         Destroy(gameObject);
     }
