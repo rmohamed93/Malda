@@ -181,7 +181,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Boomerang
   firePoint: {fileID: 0}
   boomerangPrefab: {fileID: 0}
-  speed: 10
+  speed: 5
   spinSpeed: 1000
-  forwardDuration: 2
+  forwardDuration: 1
   pauseDuration: 1
