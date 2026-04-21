@@ -37,6 +37,7 @@ public class Player : MonoBehaviour
     private IInteractable currentInteractable;
     public AudioClip jumpClip;
     public Item swordItem;
+    public Item boomerangItem;
     public PlayerHealth playerHealth;
     private Transform attackPoint;
     private Animator anim;
@@ -57,6 +58,8 @@ public class Player : MonoBehaviour
 
         // get and initialize the sword on player
         swordItem?.Initialize(gameObject);
+
+        boomerangItem?.Initialize(gameObject);
     }
 
     void Start()
@@ -165,6 +168,11 @@ public class Player : MonoBehaviour
         UseItem(swordItem);
     }
 
+    public void OnUseBoomerang()
+    {
+        UseItem(boomerangItem);
+    }
+
     public void SetCurrentInteractable(Interactable interactable)
     {
         currentInteractable = interactable.GetComponent<IInteractable>();
@@ -189,8 +197,13 @@ public class Player : MonoBehaviour
 
         if (currentItem is Sword)
         {
-            Debug.Log("Set Attack");
+            Debug.Log("Sword Attack");
             anim.SetBool("Attacking", true);
+        }
+
+        if (currentItem is Boomerang)
+        {
+            Debug.Log("Boomerang Throw");
         }
 
         Debug.Log("Using Item");

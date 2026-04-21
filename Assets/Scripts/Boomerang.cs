@@ -1,37 +1,41 @@
 using UnityEngine;
 using System.Collections;
 
-public class boomerang : MonoBehaviour, IInteractable
+public class Boomerang : Item
 {
-
     public Transform firePoint;
+    public GameObject boomerangPrefab;
 
     public float speed = 10f;
     public float spinSpeed = 1000f; // Degrees per second for that classic boomerang spin
     public float forwardDuration = 2f;
     public float pauseDuration = 1f;
-
-    GameObject player;
-
-    private Transform playerTransform;
     private Vector3 throwDirection;
+    private Vector3 firePos;
 
-    public void Interact(Player player)
+    public override void Use()
     {
         // 1. Spawn the boomerang
-        GameObject currentBoomerang = Instantiate(this, firePoint.position, Quaternion.identity);
-        currentBoomerang.SetActive(true);
-        
+        GameObject currentBoomerang = Instantiate(boomerangPrefab, firePoint.position, firePoint.rotation);
+
         // 2. Get the script and call the Throw method
         // Assuming 'transform.right' is the direction your player is facing
-        currentBoomerang.GetComponent<boomerang>().Throw(transform, transform.right); 
+        currentBoomerang.GetComponent<Boomerang>().Throw(firePoint);
+
     }
 
-    public void Throw(Transform thrower, Vector3 direction)
+    public void Throw(Transform fireP)
     {
-        playerTransform = thrower;
-        throwDirection = direction.normalized;
-        
+        firePoint = fireP;
+
+        if (firePoint.localPosition.x > 0)
+        {
+            throwDirection = Vector3.right;
+        }
+        else
+        {
+            throwDirection = Vector3.left;
+        }
         // Start the behavior sequence
         StartCoroutine(BoomerangRoutine());
     }
@@ -50,9 +54,9 @@ public class boomerang : MonoBehaviour, IInteractable
         {
             transform.position += throwDirection * speed * Time.deltaTime;
             timer += Time.deltaTime;
-            
+
             // Wait until the next frame before continuing the loop
-            yield return null; 
+            yield return null;
         }
 
         // --- PHASE 2: Pause ---
@@ -61,9 +65,9 @@ public class boomerang : MonoBehaviour, IInteractable
         // --- PHASE 3: Return ---
         // You specified returning to the player's position *at that moment in time*.
         // We capture that exact position here so it doesn't home in if the player keeps moving.
-        if (playerTransform != null)
+        if (firePoint != null)
         {
-            Vector3 targetReturnPosition = playerTransform.position;
+            Vector3 targetReturnPosition = firePoint.position;
 
             // Keep moving until the boomerang is very close to that captured point
             while (Vector3.Distance(transform.position, targetReturnPosition) > 0.1f)
