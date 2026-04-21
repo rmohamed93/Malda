@@ -430,7 +430,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   firePoint: {fileID: 4268130460910770834}
   speed: 3
-  travelTime: 2
+  spinSpeed: 1000
+  forwardDuration: 2
+  pauseDuration: 1
 --- !u!58 &6191819324264942354
 CircleCollider2D:
   m_ObjectHideFlags: 0
