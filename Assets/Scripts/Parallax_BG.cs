@@ -3,7 +3,8 @@ using UnityEngine;
 public class Parallax_BG : MonoBehaviour
 {
     private float length, startpos;
-    public GameObject camera;
+    // R.M. - Adjusted GameObject "camera" to "cam" due to inherrited Unity confilcts.
+    public GameObject cam;
     public float parallaxEffect;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -14,10 +15,12 @@ public class Parallax_BG : MonoBehaviour
     }
 
     // Update is called once per frame
-    void FixedUpdate()
+    // This essentially is the copy and past method for the layers.
+    // It also moves each layer at desired speeds based on the settings.
+    void Update()
     {
-        float temp = (camera.transform.position.x * (1 - parallaxEffect));
-        float distance = (camera.transform.position.x * parallaxEffect);
+        float temp = (cam.transform.position.x * (1 - parallaxEffect));
+        float distance = (cam.transform.position.x * parallaxEffect);
         
         transform.position = 
         new Vector3(startpos + distance, transform.position.y, transform.position.z);
