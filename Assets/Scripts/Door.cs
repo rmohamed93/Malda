@@ -18,7 +18,8 @@ public class Door : MonoBehaviour, IInteractable
         }
         else
         {
-            SceneManager.LoadScene(sceneToLoad);
+            // R.M. - Added this method to call on transition
+            ScreenTransition.Instance.LoadScene(sceneToLoad);
         }
     }
 
