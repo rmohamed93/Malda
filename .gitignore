@@ -100,3 +100,4 @@ InitTestScene*.unity*
 .vsconfig
 ProjectSettings/ShaderGraphSettings.asset
 ProjectSettings/EditorBuildSettings.asset
+/BuildProfiles
