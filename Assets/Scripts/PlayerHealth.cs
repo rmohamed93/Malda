@@ -107,8 +107,20 @@ public class PlayerHealth : MonoBehaviour
         spriteRenderer.enabled = true;
     }
 
+    // R.M. - Updated the die method.
     void Die()
     {
-        Destroy(gameObject);
+        // Prevent methods from carrying over when player respawns.
+        StopAllCoroutines();
+
+        // Player Object resets.
+        isInvincible = false;
+        isKnockedBack = false;
+        spriteRenderer.enabled = true;
+
+        rb.linearVelocity = Vector2.zero;
+        
+        RespawnManager.Instance.RespawnPlayer(gameObject);
+        currentHealth = maxHealth;
     }
 }
