@@ -36453,7 +36453,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8248444513f34634fac9a958dfeb748f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  respawnPoint: {x: -7.003, y: -3.018, z: 0}
+  respawnPoint: {x: -4.55, y: -5.63, z: 0}
 --- !u!4 &1555709000
 Transform:
   m_ObjectHideFlags: 0
