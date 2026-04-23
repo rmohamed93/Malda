@@ -257,8 +257,14 @@ public class Player : MonoBehaviour
     {
         hasSilverKey = true;
     }
+    public bool GetHasSilverKey() {
+        return hasSilverKey;
+    }
     public void SetHasGoldKey()
     {
         hasGoldKey = true;
+    }
+    public bool GetHasGoldKey() {
+        return hasGoldKey;
     }
 }

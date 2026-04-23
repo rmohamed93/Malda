@@ -8,13 +8,16 @@ public class Door : MonoBehaviour, IInteractable
 
     void Awake()
     {
+        if (isLocked) {
+            gameObject.GetComponent<Animator>().enabled = false;
+        }
     }
     public void Interact(Player player)
     {
         if (isLocked)
         {
             Debug.Log("Door is locked");
-            Unlock();
+            Unlock(player.GetHasSilverKey(), player.GetHasGoldKey());
         }
         else
         {
@@ -23,9 +26,15 @@ public class Door : MonoBehaviour, IInteractable
         }
     }
 
-    private void Unlock()
+    private void Unlock(bool hasSilverKey, bool hasGoldKey)
     {
-        // wait
+        if (hasSilverKey && hasGoldKey) {
+            isLocked = false;
+            Debug.Log("Door unlocked");
+            gameObject.GetComponent<Animator>().enabled = true;
+        } else {
+            Debug.Log("Missing keys");
+        }
     }
 
 }
