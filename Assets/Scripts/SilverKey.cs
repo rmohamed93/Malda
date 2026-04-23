@@ -15,6 +15,11 @@ public class SilverKey : MonoBehaviour, IInteractable
             Destroy(gameObject);
         }
     }
+    public float rotationSpeed = 200f;
+    void Update()
+    {
+        transform.Rotate(0, rotationSpeed * Time.deltaTime, 0);
+    }
     public void Interact(Player player)
     {
         // set sword bool
