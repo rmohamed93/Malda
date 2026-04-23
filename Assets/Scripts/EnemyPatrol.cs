@@ -38,7 +38,23 @@ public class EnemyPatrol : MonoBehaviour
             groundLayer
         );
 
-        if (!groundAhead || wallAhead)
+        RaycastHit2D hit = Physics2D.Raycast(
+            wallCheck.position,
+            Vector2.right * direction,
+            wallCheckDistance
+        );
+
+        bool enemyAhead = false;
+
+        if (hit.collider != null)
+        {
+            if (hit.collider.CompareTag("Enemy"))
+            {
+                enemyAhead = true;
+            }
+        }
+
+        if (!groundAhead || wallAhead || enemyAhead)
         {
             Flip();
         }
