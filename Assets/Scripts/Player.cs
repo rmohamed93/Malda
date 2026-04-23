@@ -25,6 +25,7 @@ public class Player : MonoBehaviour
     private bool hasSword;
     private bool hasSilverKey;
     private bool hasGoldKey;
+    private bool hasBoomerang;
 
     [Header("Components")]
     private Rigidbody2D rb;
@@ -67,6 +68,7 @@ public class Player : MonoBehaviour
         hasSword = GameManager.Instance.hasSword;
         hasSilverKey = GameManager.Instance.hasSilverKey;
         hasGoldKey = GameManager.Instance.hasGoldKey;
+        hasBoomerang = GameManager.Instance.hasBoomerang;
     }
 
     void FixedUpdate()
@@ -165,12 +167,26 @@ public class Player : MonoBehaviour
 
     public void OnUseSword()
     {
-        UseItem(swordItem);
+        if (hasSword)
+        {
+            UseItem(swordItem);
+        }
+        else
+        {
+            Debug.Log("Player does not have sword");
+        }
     }
 
     public void OnUseBoomerang()
     {
-        UseItem(boomerangItem);
+        if (hasBoomerang)
+        {
+            UseItem(boomerangItem);
+        }
+        else
+        {
+            Debug.Log("Player does not have boomerang");
+        }
     }
 
     public void SetCurrentInteractable(Interactable interactable)
@@ -210,7 +226,7 @@ public class Player : MonoBehaviour
 
         Debug.Log("Using Item");
 
-        
+
     }
     void ClearBusy()
     {
@@ -255,18 +271,24 @@ public class Player : MonoBehaviour
     {
         hasSword = true;
     }
+    public void SetHasBoomerang()
+    {
+        hasBoomerang = true;
+    }
     public void SetHasSilverKey()
     {
         hasSilverKey = true;
     }
-    public bool GetHasSilverKey() {
+    public bool GetHasSilverKey()
+    {
         return hasSilverKey;
     }
     public void SetHasGoldKey()
     {
         hasGoldKey = true;
     }
-    public bool GetHasGoldKey() {
+    public bool GetHasGoldKey()
+    {
         return hasGoldKey;
     }
 }
