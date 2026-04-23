@@ -14,7 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LevelSelectHub.unity
     guid: 7c1dbf8a5ce933cd89ac06e4026a4148
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Player Movement Dev Scene.unity
     guid: 1b4e1dbb925716a38b84915aa9e978b8
   - enabled: 1
