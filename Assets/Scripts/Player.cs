@@ -199,16 +199,18 @@ public class Player : MonoBehaviour
         {
             Debug.Log("Sword Attack");
             anim.SetBool("Attacking", true);
+            Invoke(nameof(ClearBusy), 0.3f);
         }
 
         if (currentItem is Boomerang)
         {
             Debug.Log("Boomerang Throw");
+            Invoke(nameof(ClearBusy), 1f);
         }
 
         Debug.Log("Using Item");
 
-        Invoke(nameof(ClearBusy), 0.3f);
+        
     }
     void ClearBusy()
     {
