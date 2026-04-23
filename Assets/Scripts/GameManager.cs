@@ -12,6 +12,7 @@ public class GameManager : MonoBehaviour
     public bool hasSword = false;
     public bool hasSilverKey = false;
     public bool hasGoldKey = false;
+    public bool hasBoomerang = false;
 
     // Game State
     public int currentLevel = 0;
