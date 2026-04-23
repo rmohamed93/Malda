@@ -10213,6 +10213,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Door
   sceneToLoad: Level 6
   isLocked: 0
+  levelStateSet: 0
 --- !u!95 &162436011
 Animator:
   serializedVersion: 7
@@ -10829,6 +10830,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Door
   sceneToLoad: Level 2
   isLocked: 0
+  levelStateSet: 0
 --- !u!95 &347373705
 Animator:
   serializedVersion: 7
@@ -11327,6 +11329,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Door
   sceneToLoad: Level 3
   isLocked: 0
+  levelStateSet: 3
 --- !u!95 &494187584
 Animator:
   serializedVersion: 7
@@ -12464,6 +12467,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Door
   sceneToLoad: Level 5
   isLocked: 1
+  levelStateSet: 5
 --- !u!95 &1384425913
 Animator:
   serializedVersion: 7
@@ -13030,6 +13034,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Door
   sceneToLoad: Level 1
   isLocked: 0
+  levelStateSet: 1
 --- !u!114 &1784507752
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13713,6 +13718,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Door
   sceneToLoad: Level 4
   isLocked: 1
+  levelStateSet: 0
 --- !u!95 &2048645067
 Animator:
   serializedVersion: 7

@@ -5,10 +5,12 @@ public class Door : MonoBehaviour, IInteractable
 {
     public string sceneToLoad;
     public bool isLocked;
+    public int levelStateSet;
 
     void Awake()
     {
-        if (isLocked) {
+        if (isLocked)
+        {
             gameObject.GetComponent<Animator>().enabled = false;
         }
     }
@@ -23,17 +25,22 @@ public class Door : MonoBehaviour, IInteractable
         {
             // R.M. - Added this method to call on transition
             //ScreenTransition.Instance.LoadScene(sceneToLoad);
+            GameManager.Instance.currentLevel = levelStateSet;
             SceneManager.LoadScene(sceneToLoad);
+
         }
     }
 
     private void Unlock(bool hasSilverKey, bool hasGoldKey)
     {
-        if (hasSilverKey && hasGoldKey) {
+        if (hasSilverKey && hasGoldKey)
+        {
             isLocked = false;
             Debug.Log("Door unlocked");
             gameObject.GetComponent<Animator>().enabled = true;
-        } else {
+        }
+        else
+        {
             Debug.Log("Missing keys");
         }
     }

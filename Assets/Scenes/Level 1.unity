@@ -1904,6 +1904,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Door
   sceneToLoad: LevelSelectHub
   isLocked: 0
+  levelStateSet: 0
 --- !u!61 &1771805751
 BoxCollider2D:
   m_ObjectHideFlags: 0
