@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 220140023121418391}
   - component: {fileID: 3134332357069588563}
   - component: {fileID: 8524353640335124546}
+  - component: {fileID: 8476990624548650733}
   m_Layer: 0
   m_Name: Boomerang
   m_TagString: Untagged
@@ -185,3 +186,16 @@ MonoBehaviour:
   spinSpeed: 1000
   forwardDuration: 1
   pauseDuration: 1
+--- !u!114 &8476990624548650733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5974673589824715514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7cbf0e0035a9ba41a46b43dbf9a8055, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BoomerangDamage
+  damage: 1
