@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: Jungle_tile_05_0
   m_EditorClassIdentifier: UnityEngine.dll::UnityEngine.Tilemaps.Tile
-  m_Sprite: {fileID: -7487114813876512421, guid: e2425c0d7c85ba64490bd0c28b517ae7, type: 3}
+  m_Sprite: {fileID: -7487114813876512421, guid: 5c27bf4eb7262e36c80c51975dc730fd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
