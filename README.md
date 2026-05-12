@@ -65,16 +65,25 @@ _Potential features, provided time allows, may also include adding NPCs with dia
 - Story design
 - Art Design
 - Code Monkey
+    - World Design/Scripts
+    - Features Design/Scripts
 ### Noah Turock
 - Art & Design
 - Code Monkey
+    - Enemy Scripts
 ### Eric Moore
 - Gameplay & Level Design
 - Code Monkey
+    - Enemy Scripts
+    - Animation Specialist
 ### Anthony Chapman
 - Gameplay & Level Design
 - Code Monkey
+    - Player Scripts
+    - Enemy Scripts
+    - World Design
 
 # License
 https://craftpix.net/file-licenses/
 https://unity.com/legal/terms-of-service
+Music: [MALDA Soundtrack](https://open.spotify.com/album/40UHDzThm5YXPIOSnCH8Fl)
