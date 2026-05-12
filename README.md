@@ -84,6 +84,6 @@ _Potential features, provided time allows, may also include adding NPCs with dia
     - World Design
 
 # License
-https://craftpix.net/file-licenses/
-https://unity.com/legal/terms-of-service
+https://craftpix.net/file-licenses/<br/>
+https://unity.com/legal/terms-of-service<br/>
 Music: [MALDA Soundtrack](https://open.spotify.com/album/40UHDzThm5YXPIOSnCH8Fl)
